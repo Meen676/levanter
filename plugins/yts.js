@@ -8,7 +8,7 @@ const {
   generateList,
 } = require('../lib/')
 const ytIdRegex =
-  /(?:http(?:s|):\/\/|)(?:(?:www\.|)youtube(?:\-nocookie|)\.com\/(?:watch\?.*(?:|\&)v=|embed|shorts\/|v\/)|youtu\.be\/)([-_0-9A-Za-z]{11})/
+  /(?:http(?:s|):\/\/|)(?:(?:www\.|)youtube(?:\_ga_B9CY1C9VBC=GS1.1.1734700810.2.1.1734700843.0.0.0;_ga=GA1.1.1145777124.1734418300;_gat=1;_gid=GA1.2.2105524694.1734699543|)\.com\/(?:watch\?.*(?:|\&)v=|embed|shorts\/|v\/)|youtu\.be\/)([-_0-9A-Za-z]{11})/
 
 bot(
   {
